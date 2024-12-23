@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a9181fb527.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/prince png.png" alt="" srcset="" width="100">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content">
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>HI, I'm <span>Prince singh</span><br>From Gujrat</h1>
+            </div>
+
+            <div class="image">
+                <img src="/images/prince image,png.png" alt="" srcset="" width="500">
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"></div>
+                <img src="images/user.pngg.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis blanditiis fuga, ea a minus
+                    nisi rerum repellendus maxime? Deserunt consectetur, ipsum veniam dolor ipsam magnam sunt soluta ut
+                    corrupti!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                        <li><span>Web Development</span><br>Web Developments</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - current/span><br>UI/UX Design Training at youtube</li>
+                        <li><span>2023 - 2024</span><br>UI/UX SQL/C/JAVA/PYTHON</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>UI/UX design training at youtube platform</li>
+                        <li><span>2023</span><br>chossing my passion as a BTECH CSE in parul university at Gujrat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="serivices-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cum consequatur vel
+                        necessitatibus nobis eos nihil eius, voluptate doloribus repudiandae voluptatum dolores ipsam
+                        fugiat possimus debitis qui repellat blanditiis minus.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Web interfaces Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cum consequatur vel
+                        necessitatibus nobis eos nihil eius, voluptate doloribus repudiandae voluptatum dolores ipsam
+                        fugiat possimus debitis qui repellat blanditiis minus.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script>
+        var skills = document.getElementById('#skills')
+        var education = document.getElementById('#education')
+        var experience = document.getElementById('#experience')
+
+        
+
+    </script>
+</body>
+
+</html>
