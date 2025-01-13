@@ -4,110 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal portfolio website</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a9181fb527.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Header Section -->
     <div id="header">
         <div class="container">
             <nav>
-                <img src="/images/prince png.png" alt="" srcset="" width="100">
+                <img src="images/prince png.png" alt="Profile Logo" width="100">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">contact</a></li>
-
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="header-content">
             <div class="header-text">
                 <p>UI/UX Designer</p>
-                <h1>HI, I'm <span>Prince singh</span><br>From Gujrat</h1>
+                <h1>Hi, I'm <span>Prince Singh</span><br>From Gujarat</h1>
             </div>
-
             <div class="image">
-                <img src="/images/prince image,png.png" alt="" srcset="" width="500">
+                <img src="images/prince.jpg" alt="Profile Image" width="500">
             </div>
         </div>
     </div>
+
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1"></div>
-                <img src="images/user.pngg.png">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis blanditiis fuga, ea a minus
-                    nisi rerum repellendus maxime? Deserunt consectetur, ipsum veniam dolor ipsam magnam sunt soluta ut
-                    corrupti!</p>
+                <div class="about-col-1">
+                    <img src="images/user image.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Prince singh, And i am currently studying 2nd year computer science and engineering at [parul University]. I have devloped basic skills in [front end, SQL, c, html, css, js, python] 
+                        I've honed my teamwork ,communication, and leadership abilities.
+                    </p>
 
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>UI/UX</span><br>Designing Web interfaces</li>
-                        <li><span>Web Development</span><br>Web Developments</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>2024 - current/span><br>UI/UX Design Training at youtube</li>
-                        <li><span>2023 - 2024</span><br>UI/UX SQL/C/JAVA/PYTHON</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2024</span><br>UI/UX design training at youtube platform</li>
-                        <li><span>2023</span><br>chossing my passion as a BTECH CSE in parul university at Gujrat</li>
-                    </ul>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Building Websites</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Present</span><br>UI/UX Design Training on YouTube</li>
+                            <li><span>2023 - 2024</span><br>SQL, C, Java, Python</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>UI/UX Design Training on YouTube</li>
+                            <li><span>2023</span><br>Currently studying B.Tech  CSE at Parul University,Vadodra Gujarat</li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-
     </div>
-    <!-- ------services------ -->
+
+    <!-- Services Section -->
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
-            <div class="serivices-list">
+            <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cum consequatur vel
-                        necessitatibus nobis eos nihil eius, voluptate doloribus repudiandae voluptatum dolores ipsam
-                        fugiat possimus debitis qui repellat blanditiis minus.</p>
-                    <a href="#">learn more</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cum consequatur vel necessitatibus nobis eos nihil eius.</p>
+                    <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-crop-simple"></i>
-                    <h2>UI/UX Web interfaces Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cum consequatur vel
-                        necessitatibus nobis eos nihil eius, voluptate doloribus repudiandae voluptatum dolores ipsam
-                        fugiat possimus debitis qui repellat blanditiis minus.</p>
-                    <a href="#">learn more</a>
+                    <h2>UI/UX Web Interface Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cum consequatur vel necessitatibus nobis eos nihil eius.</p>
+                    <a href="#">Learn More</a>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
-    <script>
-        var skills = document.getElementById('#skills')
-        var education = document.getElementById('#education')
-        var experience = document.getElementById('#experience')
-
+        <!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <p>If you want to get in touch, feel free to connect with me on any of these platforms:</p>
         
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://www.instagram.com/princesinghofficial7" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/princesinghofficial7" target="_blank" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/prince-singh" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/princesinghi7" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</div>
 
+    </div>
+
+    <!-- Script -->
+    <script>
+        function openTab(tabId) {
+            const tabs = document.querySelectorAll('.tab-contents');
+            const links = document.querySelectorAll('.tab-links');
+            
+            tabs.forEach(tab => tab.classList.remove('active-tab'));
+            links.forEach(link => link.classList.remove('active-link'));
+
+            document.getElementById(tabId).classList.add('active-tab');
+            document.querySelector(`.tab-links[onclick="openTab('${tabId}')"]`).classList.add('active-link');
+        }
     </script>
 </body>
-
+<script src="script.js"></script>
+</body>
 </html>
